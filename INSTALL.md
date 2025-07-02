@@ -1,22 +1,22 @@
-# getPath 安装和使用指南
+# iGetPath 安装和使用指南
 
 ## 快速开始
 
 ### 第一步：构建应用
 
-1. **打开终端**，导航到 getPath 项目目录：
+1. **打开终端**，导航到 iGetPath 项目目录：
    ```bash
-   cd /path/to/getPath
+   cd /path/to/iGetPath
    ```
 
 2. **使用 Xcode 构建**（推荐方法）：
    ```bash
    # 打开 Xcode 项目
-   open getPath.xcodeproj
+   open iGetPath.xcodeproj
    ```
 
    在 Xcode 中：
-   - 选择 "getPath" scheme
+   - 选择 "iGetPath" scheme
    - 点击 Product → Archive
    - 导出应用程序到桌面
 
@@ -27,11 +27,11 @@
 
 ### 第二步：安装应用
 
-1. 将构建好的 `getPath.app` 复制到 `/Applications` 文件夹
+1. 将构建好的 `iGetPath.app` 复制到 `/Applications` 文件夹
 
 2. 首次运行应用（这会注册 Finder 扩展）：
    ```bash
-   open /Applications/getPath.app
+   open /Applications/iGetPath.app
    ```
 
 ### 第三步：启用扩展
@@ -42,14 +42,14 @@
 1. 打开 **Finder**
 2. 点击菜单栏 **Finder** → **设置** (或按 `⌘,`)
 3. 点击 **扩展** 标签页
-4. 勾选启用 **getPath Extension**
+4. 勾选启用 **iGetPath Extension**
 
 **方法二 - 通过系统设置**：
 1. 打开 **系统设置** (macOS 13+ 中替代了系统偏好设置)
 2. 点击 **隐私与安全性**
 3. 向下滚动找到 **扩展**
 4. 点击 **Finder 扩展**
-5. 勾选启用 **getPath Extension**
+5. 勾选启用 **iGetPath Extension**
 
 **方法三 - 使用命令行**：
 ```bash
@@ -112,5 +112,5 @@ killall Finder
 
 如需卸载：
 1. 在系统偏好设置中禁用扩展
-2. 删除 `/Applications/getPath.app`
+2. 删除 `/Applications/iGetPath.app`
 3. 重启 Finder

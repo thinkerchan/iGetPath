@@ -10,7 +10,7 @@
 		1A001001290000001 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A001002290000002 /* main.swift */; };
 		1A001003290000003 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A001004290000004 /* AppDelegate.swift */; };
 		1A001005290000005 /* FinderSync.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A001006290000006 /* FinderSync.swift */; };
-		1A001007290000007 /* getPathExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1A001008290000008 /* getPathExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1A001007290000007 /* iGetPathExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1A001008290000008 /* iGetPathExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		1A001038290000038 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A001037290000037 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
@@ -20,7 +20,7 @@
 			containerPortal = 1A001010290000010 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 1A001011290000011;
-			remoteInfo = getPathExtension;
+			remoteInfo = iGetPathExtension;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -31,7 +31,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				1A001007290000007 /* getPathExtension.appex in Embed App Extensions */,
+				1A001007290000007 /* iGetPathExtension.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -42,8 +42,8 @@
 		1A001002290000002 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		1A001004290000004 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1A001006290000006 /* FinderSync.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinderSync.swift; sourceTree = "<group>"; };
-		1A001008290000008 /* getPathExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = getPathExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
-		1A001013290000013 /* getPath.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = getPath.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A001008290000008 /* iGetPathExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = iGetPathExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A001013290000013 /* iGetPath.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iGetPath.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A001014290000014 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1A001015290000015 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1A001037290000037 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -71,37 +71,37 @@
 		1A001018290000018 = {
 			isa = PBXGroup;
 			children = (
-				1A001019290000019 /* getPath */,
-				1A001020290000020 /* getPathExtension */,
+				1A001019290000019 /* iGetPath */,
+				1A001020290000020 /* iGetPathExtension */,
 				1A001037290000037 /* Assets.xcassets */,
 				1A001021290000021 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		1A001019290000019 /* getPath */ = {
+		1A001019290000019 /* iGetPath */ = {
 			isa = PBXGroup;
 			children = (
 				1A001002290000002 /* main.swift */,
 				1A001004290000004 /* AppDelegate.swift */,
 				1A001014290000014 /* Info.plist */,
 			);
-			path = getPath;
+			path = iGetPath;
 			sourceTree = "<group>";
 		};
-		1A001020290000020 /* getPathExtension */ = {
+		1A001020290000020 /* iGetPathExtension */ = {
 			isa = PBXGroup;
 			children = (
 				1A001006290000006 /* FinderSync.swift */,
 				1A001015290000015 /* Info.plist */,
 			);
-			path = getPathExtension;
+			path = iGetPathExtension;
 			sourceTree = "<group>";
 		};
 		1A001021290000021 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1A001013290000013 /* getPath.app */,
-				1A001008290000008 /* getPathExtension.appex */,
+				1A001013290000013 /* iGetPath.app */,
+				1A001008290000008 /* iGetPathExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -109,9 +109,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1A001022290000022 /* getPath */ = {
+		1A001022290000022 /* iGetPath */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1A001023290000023 /* Build configuration list for PBXNativeTarget "getPath" */;
+			buildConfigurationList = 1A001023290000023 /* Build configuration list for PBXNativeTarget "iGetPath" */;
 			buildPhases = (
 				1A001024290000024 /* Sources */,
 				1A001016290000016 /* Frameworks */,
@@ -123,14 +123,14 @@
 			dependencies = (
 				1A001026290000026 /* PBXTargetDependency */,
 			);
-			name = getPath;
-			productName = getPath;
-			productReference = 1A001013290000013 /* getPath.app */;
+			name = iGetPath;
+			productName = iGetPath;
+			productReference = 1A001013290000013 /* iGetPath.app */;
 			productType = "com.apple.product-type.application";
 		};
-		1A001011290000011 /* getPathExtension */ = {
+		1A001011290000011 /* iGetPathExtension */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1A001027290000027 /* Build configuration list for PBXNativeTarget "getPathExtension" */;
+			buildConfigurationList = 1A001027290000027 /* Build configuration list for PBXNativeTarget "iGetPathExtension" */;
 			buildPhases = (
 				1A001028290000028 /* Sources */,
 				1A001017290000017 /* Frameworks */,
@@ -140,9 +140,9 @@
 			);
 			dependencies = (
 			);
-			name = getPathExtension;
-			productName = getPathExtension;
-			productReference = 1A001008290000008 /* getPathExtension.appex */;
+			name = iGetPathExtension;
+			productName = iGetPathExtension;
+			productReference = 1A001008290000008 /* iGetPathExtension.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
@@ -163,7 +163,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 1A001030290000030 /* Build configuration list for PBXProject "getPath" */;
+			buildConfigurationList = 1A001030290000030 /* Build configuration list for PBXProject "iGetPath" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -176,8 +176,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1A001022290000022 /* getPath */,
-				1A001011290000011 /* getPathExtension */,
+				1A001022290000022 /* iGetPath */,
+				1A001011290000011 /* iGetPathExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -223,7 +223,7 @@
 /* Begin PBXTargetDependency section */
 		1A001026290000026 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1A001011290000011 /* getPathExtension */;
+			target = 1A001011290000011 /* iGetPathExtension */;
 			targetProxy = 1A001009290000009 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -352,21 +352,21 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = getPath/getPath.entitlements;
+				CODE_SIGN_ENTITLEMENTS = iGetPath/iGetPath.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = NO;
-				INFOPLIST_FILE = getPath/Info.plist;
+				INFOPLIST_FILE = iGetPath/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.getpath.app;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iGetPath.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -378,21 +378,21 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = getPath/getPath.entitlements;
+				CODE_SIGN_ENTITLEMENTS = iGetPath/iGetPath.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = NO;
-				INFOPLIST_FILE = getPath/Info.plist;
+				INFOPLIST_FILE = iGetPath/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.getpath.app;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iGetPath.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -402,14 +402,14 @@
 		1A001035290000035 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = getPathExtension/getPathExtension.entitlements;
+				CODE_SIGN_ENTITLEMENTS = iGetPathExtension/iGetPathExtension.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = NO;
-				INFOPLIST_FILE = getPathExtension/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "getPath Extension";
+				INFOPLIST_FILE = iGetPathExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "iGetPath Extension";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -417,7 +417,7 @@
 					"@executable_path/../../../../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.getpath.app.extension;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iGetPath.app.extension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -428,14 +428,14 @@
 		1A001036290000036 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = getPathExtension/getPathExtension.entitlements;
+				CODE_SIGN_ENTITLEMENTS = iGetPathExtension/iGetPathExtension.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = NO;
-				INFOPLIST_FILE = getPathExtension/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "getPath Extension";
+				INFOPLIST_FILE = iGetPathExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "iGetPath Extension";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -443,7 +443,7 @@
 					"@executable_path/../../../../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.getpath.app.extension;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iGetPath.app.extension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -454,7 +454,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1A001023290000023 /* Build configuration list for PBXNativeTarget "getPath" */ = {
+		1A001023290000023 /* Build configuration list for PBXNativeTarget "iGetPath" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1A001033290000033 /* Debug */,
@@ -463,7 +463,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1A001027290000027 /* Build configuration list for PBXNativeTarget "getPathExtension" */ = {
+		1A001027290000027 /* Build configuration list for PBXNativeTarget "iGetPathExtension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1A001035290000035 /* Debug */,
@@ -472,7 +472,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1A001030290000030 /* Build configuration list for PBXProject "getPath" */ = {
+		1A001030290000030 /* Build configuration list for PBXProject "iGetPath" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1A001031290000031 /* Debug */,

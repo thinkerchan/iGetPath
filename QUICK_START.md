@@ -1,9 +1,9 @@
-# getPath 快速开始指南
+# iGetPath 快速开始指南
 
 ## 📦 当前状态
 ✅ 应用已成功编译！构建产物位于：
 ```
-~/Library/Developer/Xcode/DerivedData/getPath-*/Build/Products/Debug/getPath.app
+~/Library/Developer/Xcode/DerivedData/iGetPath-*/Build/Products/Debug/iGetPath.app
 ```
 
 ## 🚀 立即开始使用
@@ -11,10 +11,10 @@
 ### 第一步：安装应用
 ```bash
 # 复制应用到 Applications 文件夹
-cp -r ~/Library/Developer/Xcode/DerivedData/getPath-*/Build/Products/Debug/getPath.app /Applications/
+cp -r ~/Library/Developer/Xcode/DerivedData/iGetPath-*/Build/Products/Debug/iGetPath.app /Applications/
 
 # 运行应用进行初始化
-open /Applications/getPath.app
+open /Applications/iGetPath.app
 ```
 
 ### 第二步：启用扩展
@@ -22,11 +22,11 @@ open /Applications/getPath.app
 
 **方法一 (系统设置)**：
 1. 打开 **系统设置** → **隐私与安全性** → **扩展** → **Finder扩展**
-2. 勾选启用 **getPath Extension**
+2. 勾选启用 **iGetPath Extension**
 
 **方法二 (Finder设置)**：
 1. 打开 **Finder** → **设置** → **扩展** 标签页
-2. 勾选启用 **getPath Extension**
+2. 勾选启用 **iGetPath Extension**
 
 **方法三 (命令行)**：
 ```bash

@@ -5,7 +5,7 @@
     <key>CFBundleDevelopmentRegion</key>
     <string>$(DEVELOPMENT_LANGUAGE)</string>
     <key>CFBundleDisplayName</key>
-    <string>getPath Extension</string>
+    <string>iGetPath Extension</string>
     <key>CFBundleExecutable</key>
     <string>$(EXECUTABLE_NAME)</string>
     <key>CFBundleIdentifier</key>
@@ -29,7 +29,5 @@
         <key>NSExtensionPrincipalClass</key>
         <string>$(PRODUCT_MODULE_NAME).FinderSync</string>
     </dict>
-    <key>NSHumanReadableCopyright</key>
-    <string>Copyright © 2024 getPath. All rights reserved.</string>
 </dict>
 </plist>

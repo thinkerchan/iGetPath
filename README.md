@@ -1,4 +1,4 @@
-# getPath
+# iGetPath
 
 一个简单易用的 Mac 应用程序，在 Finder 工具栏中添加按钮，一键获取当前文件夹的完整路径。
 
@@ -28,21 +28,21 @@
 
 ### 方法二：使用 Xcode
 
-1. 打开 `getPath.xcodeproj`
-2. 选择 getPath scheme
+1. 打开 `iGetPath.xcodeproj`
+2. 选择 iGetPath scheme
 3. Product → Archive
 4. 导出应用程序
 
 ## 使用说明
 
-1. **安装应用**：将构建好的 `getPath.app` 复制到 `/Applications` 文件夹
+1. **安装应用**：将构建好的 `iGetPath.app` 复制到 `/Applications` 文件夹
 
-2. **首次运行**：双击运行 `getPath.app`，会显示安装完成提示
+2. **首次运行**：双击运行 `iGetPath.app`，会显示安装完成提示
 
 3. **启用扩展**：
    - **macOS 15+**: 系统设置 → 隐私与安全性 → 扩展 → Finder扩展
    - **或者**: Finder → 设置 → 扩展标签页
-   - 勾选启用 "getPath Extension"
+   - 勾选启用 "iGetPath Extension"
 
 4. **重启 Finder**：
    ```bash
