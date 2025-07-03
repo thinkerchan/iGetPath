@@ -24,5 +24,11 @@
     <true/>
     <key>NSPrincipalClass</key>
     <string>NSApplication</string>
+    <key>NSAppleEventsUsageDescription</key>
+    <string>iGetPath需要访问Finder来获取当前文件夹路径</string>
+    <key>NSUserNotificationAlertStyle</key>
+    <string>alert</string>
+    <key>NSAppleScriptEnabled</key>
+    <true/>
 </dict>
 </plist>
